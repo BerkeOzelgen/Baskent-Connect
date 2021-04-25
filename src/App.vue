@@ -1,18 +1,40 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div v-if="$store.state.currentUser">
+    <Navbar></Navbar>
+  </div>
+  <div class="modal fade" id="profileModalNavbar" data-bs-backdrop="static"
+    data-bs-keyboard="false" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <ProfilePopupComp/>
+      </div>
+    </div>
   </div>
   <router-view/>
 </template>
 
+<script>
+import Navbar from '@/components/Navbar.vue';
+import ProfilePopupComp from '@/components/ProfilePopupComp.vue';
+
+export default {
+  name: 'App',
+  components: {
+    Navbar,
+    ProfilePopupComp,
+  },
+};
+</script>
+
 <style lang="scss">
+body {
+  background: url("../src/assets/Frame_6.jpg")no-repeat center center / cover fixed;
+}
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: black;
 }
 
 #nav {
@@ -20,11 +42,22 @@
 
   a {
     font-weight: bold;
-    color: #2c3e50;
+    color: black;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: white;
     }
   }
+}
+.modal-dialog{
+  width: 301px;
+  height: 470px;
+  border-radius: 20px;
+}
+.modal-content{
+  width: 300px;
+  height: 470px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 </style>
