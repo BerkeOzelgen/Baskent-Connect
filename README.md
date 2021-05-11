@@ -8,3 +8,6 @@
 
 * With Baskent Connect, users need to login to access their account, if they don’t have account they need to register via academic mail address. In homepage, user can reach their course documents, assignment deadlines, school announcements, course schedule and their other school websites (Moodle, buobs, baskent mail). In the chat side, the users will be able to join chat rooms and talk with classmates, lecturers, and lecturer assistants. The join phase will be based on hosts(lecturers) permissions. Users can join several chat rooms. Hosts can kick users that exhibiting inappropriate behavior from chat rooms. Only hosts can create a new chat room. In profile, users and hosts can edit their account information and they can delete their accounts.
 
+## User Interfaces
+
+![Er Diagram Detailed](/images/login.jpg)
