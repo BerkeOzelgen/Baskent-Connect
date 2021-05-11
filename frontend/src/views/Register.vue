@@ -23,7 +23,7 @@
                         </div>
                     </div>
                     <div class="mb-4">
-                        <a href="#" class="btn btn login-button" @click.prevent="sendNewPost"
+                        <a href="#" class="btn btn login-button" @click.prevent="sendNewPost()"
                          data-bs-toggle="modal" data-bs-target="#registerModal">
                         E-posta Gönder</a>
                     </div>
@@ -79,7 +79,6 @@ export default {
       const res = await fetch('http://localhost:5000/user');
       const data = await res.json();
       this.allUsers = data;
-      console.log(this.allUsers);
     },
     sendNewPost() {
       const newUsername = this.newPost.username.split('@');

@@ -74,7 +74,6 @@ export default {
         name: this.course.courseid,
         lecturer: this.course.course_author.split(' -')[0],
       };
-      console.log(this.groupInfo);
     },
     getKeys() {
       this.keys = Object.keys(this.groupInfo);

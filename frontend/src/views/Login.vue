@@ -12,7 +12,7 @@
                         </div>
                         <div class="form-floating align-center input-width mb-3">
                             <input type="email" class="form-control floating-input"
-                                id="floatingEmail" placeholder="E-posta Adresi" v-model="newUsername">
+                            id="floatingEmail" placeholder="E-posta Adresi" v-model="newUsername">
                             <label for="floatingEmail">E-posta Adresi</label>
                         </div>
                         <div class="form-floating align-center input-width">
@@ -30,7 +30,7 @@
                         <a class="forgot-password" @click="$router.push('/forgotpassword')">
                         Şifrenizi mi unuttunuz?</a>
                     </div>
-                        <a href="#" class="btn btn login-button mb-4" @click.prevent="getName"
+                        <a href="#" class="btn btn login-button mb-4" @click.prevent="getName()"
                         data-bs-toggle="modal" data-bs-target="#loginModal">
                         Giriş Yap</a>
                     <div class="mb-3">
