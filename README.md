@@ -17,18 +17,18 @@
 
 ## User Interfaces
 
-### Login
+- ### Login
 ![Login Screen](/images/login.jpg)
 
-### Register 
+- ### Register 
 ![Login Screen](/images/register.jpg)
 
-### Forgot Password
+- ### Forgot Password
 ![Login Screen](/images/forgot_password.jpg)
 
-### Chat
+- ### Chat
 ![Login Screen](/images/chat_screen.jpg)
 
-### Group Info
+- ### Group Info
 ![Login Screen](/images/group_info.jpg)
 
