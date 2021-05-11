@@ -10,7 +10,7 @@
 
 ## Technologies
 - Vue.js
-- <img width=50 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1280px-Node.js_logo.svg.png">Node.js
+- <img width=50 src="https://e7.pngegg.com/pngimages/117/744/png-clipart-node-js-javascript-express-js-software-developer-react-network-code-angle-text.png">Node.js
 - Express.js
 - PostgreSQL
 - Socket.IO
