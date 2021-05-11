@@ -22,17 +22,17 @@
 ![Login Screen](/images/login.jpg)
 
 ### Register 
-![Login Screen](/images/register.jpg)
+![Register Screen](/images/register.jpg)
 
 ### Forgot Password
-![Login Screen](/images/forgot_password.jpg)
+![Forgot Password Screen](/images/forgot_password.jpg)
 
 ### Homepage
-![Login Screen](/images/home_page.jpg)
+![Homepage Screen](/images/home_page.jpg)
 
 ### Chat
-![Login Screen](/images/chat_screen.jpg)
+![Chat Screen](/images/chat_screen.jpg)
 
 ### Group Info
-![Login Screen](/images/group_info.jpg)
+![Group Info Screen](/images/group_info.jpg)
 
