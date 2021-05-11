@@ -12,8 +12,9 @@
 - Vue.js
 - Node.js
 - Express.js
-- PostgreSQL
 - Socket.IO
+- PostgreSQL
+
 
 ## User Interfaces
 
