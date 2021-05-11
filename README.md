@@ -10,7 +10,7 @@
 
 ## Technologies
 - Vue.js
-- <img width=50 src="https://e7.pngegg.com/pngimages/117/744/png-clipart-node-js-javascript-express-js-software-developer-react-network-code-angle-text.png">Node.js
+- Node.js
 - Express.js
 - PostgreSQL
 - Socket.IO
