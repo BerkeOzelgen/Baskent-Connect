@@ -1,5 +1,12 @@
 # Baskent Connect
 
+## Technologies
+- Vue.js
+- Node.js
+- Express.js
+- PostgreSQL
+- Socket.IO
+
 ## Product Scope
 
 * Baskent Connect is a chat application where group conversations and announcements can be made for lecturers and students to communicate more easily and it is all-in-one application which students can achieve any information they need about they need about their lectures. This application also cares about privacy so there is no need to share personal information.
@@ -10,4 +17,18 @@
 
 ## User Interfaces
 
-![Er Diagram Detailed](/images/login.jpg)
+### Login
+![Login Screen](/images/login.jpg)
+
+### Register 
+![Login Screen](/images/register.jpg)
+
+### Forgot Password
+![Login Screen](/images/forgot_password.jpg)
+
+### Chat
+![Login Screen](/images/chat_screen.jpg)
+
+### Group Info
+![Login Screen](/images/group_info.jpg)
+
