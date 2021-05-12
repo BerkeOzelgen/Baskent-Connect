@@ -1,13 +1,13 @@
 # Baskent Connect
 
 ## Project Team 💻
-Can Polat
-Atilla Kaan Tanyeri
-Necmettin Mert Uysal
-Görkem Armağan Dalkıran
-Egemen Gürdal Uyan
-Deniz Yüce
-Berke Özelgen
+* Can Polat
+* Atilla Kaan Tanyeri
+* Necmettin Mert Uysal
+* Görkem Armağan Dalkıran
+* Egemen Gürdal Uyan
+* Deniz Yüce
+* Berke Özelgen
 
 ## Product Scope
 
